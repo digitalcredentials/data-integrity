@@ -3,7 +3,7 @@
  */
 import {expect} from 'chai';
 
-import jsigs from 'jsonld-signatures';
+import jsigs from '@digitalcredentials/jsonld-signatures';
 const {purposes: {AssertionProofPurpose}} = jsigs;
 
 import * as Ed25519Multikey from '@digitalbazaar/ed25519-multikey';

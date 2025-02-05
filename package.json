@@ -1,11 +1,11 @@
 {
-  "name": "@digitalbazaar/data-integrity",
+  "name": "@digitalcredentials/data-integrity",
   "version": "2.5.1-0",
   "description": "Data Integrity Proof library for use with jsonld-signatures.",
-  "homepage": "https://github.com/digitalbazaar/data-integrity",
+  "homepage": "https://github.com/digitalcredentials/data-integrity",
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalbazaar/data-integrity"
+    "url": "https://github.com/digitalcredentials/data-integrity"
   },
   "license": "BSD-3-Clause",
   "type": "module",
@@ -18,9 +18,9 @@
     "./lib/sha256digest.js": "./lib/sha256digest-browser.js"
   },
   "dependencies": {
+    "@digitalcredentials/jsonld-signatures": "^12.0.1",
     "base58-universal": "^2.0.0",
-    "base64url-universal": "^2.0.0",
-    "jsonld-signatures": "^11.3.0"
+    "base64url-universal": "^2.0.0"
   },
   "devDependencies": {
     "@digitalbazaar/data-integrity-context": "^2.0.0",
